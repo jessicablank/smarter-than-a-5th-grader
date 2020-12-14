@@ -1,0 +1,128 @@
+/* define primary colors */
+$primary_1: #8e24aa; //purple darken-1
+$primary_2: #d81b60; //pink darken-1
+$primary_grey: #f5f5f5; //grey lighten-5
+
+nav-wrapper{
+  background-color: $primary_1;
+}
+
+// Button Styling
+#start-btn, #clear-btn{
+  background-color: $primary_2;
+  color: $primary_grey;
+  font-style: italic;
+  font-weight: bold;
+}
+
+//Quiz Answer Button Styling
+.answer{
+  background-color: $primary_1;
+  color: $primary_grey;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid;
+  cursor: pointer;
+
+}
+
+
+.quiz-results{
+  color: $primary_1;
+  font-weight: bold;
+}
+
+// Home Page Divider
+.custom-shape-divider-bottom-1606973803 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1606973803 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 337px;
+}
+
+.custom-shape-divider-bottom-1606973803 .shape-fill {
+  fill: #8E24AA;
+}
+
+//Quiz Question Styling
+.custom-shape-divider-bottom-1607409541 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1607409541 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1607409541 .shape-fill {
+  fill: #D81B60;
+}
+
+
+//End Screen Divider
+.custom-shape-divider-bottom-1607061032 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1607061032 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 133px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1607061032 .shape-fill {
+  fill: #D81B60;
+}
+
+
+
+/* Octocat in the Right Corner Start*/
+
+.github-corner svg{
+  position:absolute;
+  right: 0;
+	top:0;
+	color:#eeeeee;
+	fill:#353535;
+}
+.github-corner:hover .octo-arm{
+	animation:octocat-wave .56s;
+}
+@keyframes octocat-wave{
+	0%, 100%{
+		transform:rotate(0);
+	}
+	20%, 60%{
+		transform:rotate(-20deg);
+	}
+	40%, 80%{
+		transform:rotate(10deg);
+	}
+}
