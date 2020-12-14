@@ -37,10 +37,9 @@ $(document).ready(function () {
         console.log(`${name} = ${value}`);
         $answers.append(`<p><label for="${value}">${value}<input type="radio" id="${value}" name="options" value="${value}"></label></p>`)
       
-            
-    
-    });
-
-  
-  }
-});
+        $("#start-btn").on("click", function () {
+          startQuiz();
+        });
+      })
+    };
+  });
